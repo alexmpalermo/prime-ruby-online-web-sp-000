@@ -1,7 +1,9 @@
 def prime?(integer)
+  array = []
   counter = 2 
-  until counter = 
+  until counter == Integer.sqrt(integer)
   counter += 1
-  integer % 2 == 0 
-  integer % x until x == Integer.sqrt(integer)
+  integer % counter == 0
+  array << integer
+  if 
 end
