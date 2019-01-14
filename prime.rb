@@ -5,5 +5,8 @@ def prime?(integer)
    number = integer % counter 
   counter += 1
   array << number
-   if array.all? 
+   if array.all?(0) 
+     true
+   else 
+     false 
 end
