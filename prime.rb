@@ -5,8 +5,10 @@ def prime?(integer)
    number = integer % counter 
   counter += 1
   array << number
+end
    if array.include?(0) 
      true
    else 
      false 
 end
+end 
