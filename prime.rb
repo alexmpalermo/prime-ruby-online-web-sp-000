@@ -1,5 +1,7 @@
 def prime?(integer)
-  loop
+  counter = 2 
+  until counter = 
+  counter += 1
   integer % 2 == 0 
-  integer % x until x == integer.sqrt(integer)
+  integer % x until x == Integer.sqrt(integer)
 end
